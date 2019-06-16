@@ -1,13 +1,13 @@
-package ch01;
+package com.acme.utils;
 
 import java.lang.Math;
 
 public class MyDate {
 	 
-	int day;
-	int year;
-	int month;
-	static int count = 1;
+	public int day;
+	public int year;
+	public int month;
+	public static int count = 1;
 	
 	public MyDate() {
 		count++;
